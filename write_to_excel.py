@@ -1,12 +1,6 @@
-/home/kim/PycharmProjects/qichacha/venv/bin/python /home/kim/PycharmProjects/qichacha/qichacha.py
---请扫码登录--
-------------------------------------------------------------------------------------
---请扫码登录--
-------------------------------------------------------------------------------------
-Login!
-Now going to next page :
-------------------------company list---------------------------
-[
+import csv
+
+a = [
     {
         "id": "1",
         "company_name": "小米科技有限责任公司",
@@ -128,7 +122,9 @@ Now going to next page :
         "status": "注销"
     }
 ]
-[
+
+
+b = [
     {
         "company_name": "小米科技有限责任公司",
         "company_code": "91110108551385082Q",
@@ -585,4 +581,42 @@ Now going to next page :
     }
 ]
 
-Process finished with exit code 0
+
+def write_to_excel(json_com, json_detail, person):
+    result_data = [['人员','id','公司名称','注册资本','地区','行业','状态','持股比例','统一社会信用代码', '主要人员','股东信息']]
+    for com in json_com:
+        data = ['-' for n in range(11)]
+        data[0] = person
+        data[1] = com['id']
+        data[2] = com['company_name']
+        data[3] = com['invest_sum']
+        data[4] = com['location']
+        data[5] = com['scope']
+        data[6] = com['status']
+        data[7] = com['invest_percent']
+
+        for detail in json_detail:
+            if detail['company_name'] == com['company_name']:
+                data[8] = detail['company_code']
+
+                data[9] = ""
+                for m in detail['member']:
+                    text = m['partner_name'] + "-" + m['title'] + '\n'
+                    data[9] = data[9] + text
+
+                data[10] = ""
+                for p in detail['partner']:
+                    text = p['partner_name'] + "-" + p['percent'] + "-" +  p['invest_count'] + '\n'
+                    data[10] = data[10] + text
+
+        result_data.append(data)
+
+    with open(person + ".csv", "w") as csvfile:
+        writer = csv.writer(csvfile)
+        for l in result_data:
+            writer.writerow(l)
+
+    return result_data
+
+
+result = write_to_excel(a, b, '雷军')

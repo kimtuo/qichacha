@@ -173,7 +173,7 @@ class Qichacha():
                             #         tb_list.append(
                             #             td.getText().replace(" ", "").replace("\t", "").replace("\n", "").replace("持股详情>", "").strip())
 
-                            if td.a is not None and td.a.getText().replace(" ", "").replace("\t", "").strip() != "持股详情>" and len(tb_list) == 0:
+                            if td.a is not None and td.a.getText().replace(" ", "").replace("\t", "").strip() != "持股详情>" and len(tb_list) < 2:
                                 tb_list.append(td.a.getText().replace(" ", "").replace("\t", "").strip())
                             else:
                                 if td.getText() is not None:

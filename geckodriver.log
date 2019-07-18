@@ -921,3 +921,14 @@ JavaScript warning: https://www.qichacha.com/material/theme/chacha/cms/v2/js/jqu
 JavaScript warning: https://www.qichacha.com/material/plugins/tupu/tupu-person.js?time=1563422767, line 1188: unreachable code after return statement
 JavaScript warning: https://www.qichacha.com/material/plugins/tupu/tupu-person.js?time=1563422767, line 1188: unreachable code after return statement
 *** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1563423293479	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.7d9Tq1G4iNKC"
+1563423294767	Marionette	INFO	Listening on port 43467
+1563423294790	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.qichacha.com/material/theme/chacha/cms/v2/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.qichacha.com/material/theme/chacha/cms/v2/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.qichacha.com/material/theme/chacha/cms/v2/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.qichacha.com/material/theme/chacha/cms/v2/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.qichacha.com/material/theme/chacha/cms/v2/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.qichacha.com/material/plugins/tupu/tupu-person.js?time=1563423317, line 1188: unreachable code after return statement
+JavaScript warning: https://www.qichacha.com/material/plugins/tupu/tupu-person.js?time=1563423317, line 1188: unreachable code after return statement
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
