@@ -762,3 +762,162 @@ JavaScript error: https://www.qichacha.com/firm_ad622acd512e8f07fb287627b6901a7d
 1563417467380	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript warning: https://www.qichacha.com/material/theme/chacha/cms/v2/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
 JavaScript warning: https://www.qichacha.com/material/theme/chacha/cms/v2/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1563420314209	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.O2H0AA6iDrS8"
+1563420315705	Marionette	INFO	Listening on port 45045
+1563420315719	Marionette	WARN	TLS certificate errors will be ignored for this session
+1563420317771	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 185"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:185
+onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:201
+_middleware/</<()@resource://activity-stream/lib/Store.jsm:49
+Store/this[method]()@resource://activity-stream/lib/Store.jsm:28
+uninit()@resource://activity-stream/lib/Store.jsm:151
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:300
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:73
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:169
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4436
+observe()@resource://gre/modules/addons/XPIProvider.jsm:2287
+GeckoDriver.prototype.quit()@driver.js:3300
+despatch()@server.js:293
+execute()@server.js:267
+onPacket/<()@server.js:242
+onPacket()@server.js:241
+_onJSONObjectReady/<()@transport.js:500
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1563420353857	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.IJa9ZpsSM2J1"
+1563420355085	Marionette	INFO	Listening on port 38481
+1563420355160	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1563420383258	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.gEMxheZ3krk4"
+1563420384437	Marionette	INFO	Listening on port 43713
+1563420384465	Marionette	WARN	TLS certificate errors will be ignored for this session
+1563420385823	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 185"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:185
+onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:201
+_middleware/</<()@resource://activity-stream/lib/Store.jsm:49
+Store/this[method]()@resource://activity-stream/lib/Store.jsm:28
+uninit()@resource://activity-stream/lib/Store.jsm:151
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:300
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:73
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:169
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4436
+observe()@resource://gre/modules/addons/XPIProvider.jsm:2287
+GeckoDriver.prototype.quit()@driver.js:3300
+despatch()@server.js:293
+execute()@server.js:267
+onPacket/<()@server.js:242
+onPacket()@server.js:241
+_onJSONObjectReady/<()@transport.js:500
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1563420389926	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.hOnGbTN4mjEW"
+1563420391093	Marionette	INFO	Listening on port 38081
+1563420391135	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1563420403122	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.C6y2noSSUpfs"
+1563420404290	Marionette	INFO	Listening on port 40613
+1563420404333	Marionette	WARN	TLS certificate errors will be ignored for this session
+1563420406570	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 185"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:185
+onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:201
+_middleware/</<()@resource://activity-stream/lib/Store.jsm:49
+Store/this[method]()@resource://activity-stream/lib/Store.jsm:28
+uninit()@resource://activity-stream/lib/Store.jsm:151
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:300
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:73
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:169
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4436
+observe()@resource://gre/modules/addons/XPIProvider.jsm:2287
+GeckoDriver.prototype.quit()@driver.js:3300
+despatch()@server.js:293
+execute()@server.js:267
+onPacket/<()@server.js:242
+onPacket()@server.js:241
+_onJSONObjectReady/<()@transport.js:500
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1563420554567	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.F0vRG9hkpD7R"
+1563420555715	Marionette	INFO	Listening on port 40147
+1563420555772	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.qichacha.com/material/theme/chacha/cms/v2/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.qichacha.com/material/theme/chacha/cms/v2/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.qichacha.com/material/theme/chacha/cms/v2/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.qichacha.com/material/theme/chacha/cms/v2/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.qichacha.com/material/theme/chacha/cms/v2/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.qichacha.com/material/plugins/tupu/tupu-person.js?time=1563420638, line 1188: unreachable code after return statement
+JavaScript warning: https://www.qichacha.com/material/plugins/tupu/tupu-person.js?time=1563420638, line 1188: unreachable code after return statement
+1563420774925	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.UAPlPSijRKTc"
+1563420776112	Marionette	INFO	Listening on port 45101
+1563420776130	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.qichacha.com/material/theme/chacha/cms/v2/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.qichacha.com/material/theme/chacha/cms/v2/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.qichacha.com/material/theme/chacha/cms/v2/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.qichacha.com/material/theme/chacha/cms/v2/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.qichacha.com/material/theme/chacha/cms/v2/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1563421244601	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.aSADvYZpoZYp"
+1563421245926	Marionette	INFO	Listening on port 33919
+1563421246019	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.qichacha.com/material/theme/chacha/cms/v2/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.qichacha.com/material/theme/chacha/cms/v2/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.qichacha.com/material/theme/chacha/cms/v2/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.qichacha.com/material/theme/chacha/cms/v2/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.qichacha.com/material/theme/chacha/cms/v2/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.qichacha.com/material/plugins/tupu/tupu-person.js?time=1563421276, line 1188: unreachable code after return statement
+JavaScript warning: https://www.qichacha.com/material/plugins/tupu/tupu-person.js?time=1563421276, line 1188: unreachable code after return statement
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1563421382559	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.83azLCqcuqSX"
+1563421383718	Marionette	INFO	Listening on port 46503
+1563421383775	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.qichacha.com/material/theme/chacha/cms/v2/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.qichacha.com/material/theme/chacha/cms/v2/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.qichacha.com/material/theme/chacha/cms/v2/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.qichacha.com/material/theme/chacha/cms/v2/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.qichacha.com/material/theme/chacha/cms/v2/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.qichacha.com/material/plugins/tupu/tupu-person.js?time=1563421400, line 1188: unreachable code after return statement
+JavaScript warning: https://www.qichacha.com/material/plugins/tupu/tupu-person.js?time=1563421400, line 1188: unreachable code after return statement
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1563421539818	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.r45IUhUTIWIB"
+1563421541067	Marionette	INFO	Listening on port 45963
+1563421541125	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.qichacha.com/material/theme/chacha/cms/v2/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.qichacha.com/material/theme/chacha/cms/v2/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.qichacha.com/material/theme/chacha/cms/v2/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.qichacha.com/material/theme/chacha/cms/v2/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.qichacha.com/material/theme/chacha/cms/v2/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.qichacha.com/material/plugins/tupu/tupu-person.js?time=1563421557, line 1188: unreachable code after return statement
+JavaScript warning: https://www.qichacha.com/material/plugins/tupu/tupu-person.js?time=1563421557, line 1188: unreachable code after return statement
+[Parent 14811, Gecko_IOThread] WARNING: pipe error (97): Connection reset by peer: file /build/firefox-lojCEZ/firefox-60.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1563422488093	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.4N0EQqNBmhXd"
+1563422489542	Marionette	INFO	Listening on port 42069
+1563422489613	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.qichacha.com/material/theme/chacha/cms/v2/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.qichacha.com/material/theme/chacha/cms/v2/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.qichacha.com/material/theme/chacha/cms/v2/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.qichacha.com/material/theme/chacha/cms/v2/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.qichacha.com/material/theme/chacha/cms/v2/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.qichacha.com/material/plugins/tupu/tupu-person.js?time=1563422503, line 1188: unreachable code after return statement
+JavaScript warning: https://www.qichacha.com/material/plugins/tupu/tupu-person.js?time=1563422503, line 1188: unreachable code after return statement
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1563422591437	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.35YYbpgUVXD3"
+1563422592631	Marionette	INFO	Listening on port 40081
+1563422592642	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.qichacha.com/material/theme/chacha/cms/v2/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.qichacha.com/material/theme/chacha/cms/v2/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.qichacha.com/material/theme/chacha/cms/v2/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.qichacha.com/material/theme/chacha/cms/v2/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.qichacha.com/material/theme/chacha/cms/v2/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.qichacha.com/material/plugins/tupu/tupu-person.js?time=1563422615, line 1188: unreachable code after return statement
+JavaScript warning: https://www.qichacha.com/material/plugins/tupu/tupu-person.js?time=1563422615, line 1188: unreachable code after return statement
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1563422705745	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.drjNGDRhHylD"
+1563422707120	Marionette	INFO	Listening on port 41219
+1563422707151	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.qichacha.com/material/theme/chacha/cms/v2/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1563422744617	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.CrthLxaM86js"
+1563422746050	Marionette	INFO	Listening on port 38943
+1563422746122	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.qichacha.com/material/theme/chacha/cms/v2/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.qichacha.com/material/theme/chacha/cms/v2/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.qichacha.com/material/theme/chacha/cms/v2/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.qichacha.com/material/theme/chacha/cms/v2/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.qichacha.com/material/theme/chacha/cms/v2/js/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.qichacha.com/material/plugins/tupu/tupu-person.js?time=1563422767, line 1188: unreachable code after return statement
+JavaScript warning: https://www.qichacha.com/material/plugins/tupu/tupu-person.js?time=1563422767, line 1188: unreachable code after return statement
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping

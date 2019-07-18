@@ -5,6 +5,10 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 import time
 
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+
 class Qichacha():
 
     def __init__(self):
@@ -77,11 +81,12 @@ class Qichacha():
             browser = webdriver.Firefox()
             browser.get(boss_url)
 
+
             is_login = False
             while True:
                 try:
                     if not is_login:
-                        login_link = browser.find_element_by_link_text('登录')
+                        browser.find_element_by_link_text('登录')
                         print("--请扫码登录--")
                         print("------------------------------------------------------------------------------------")
                         time.sleep(5)
@@ -106,17 +111,26 @@ class Qichacha():
                                 next_page.click()
                                 time.sleep(5)
 
+                                WebDriverWait(browser, 10).until(
+                                    EC.presence_of_element_located((By.ID, "legallist"))
+                                )
+
                                 this_com_list = self.parse_company(browser.page_source)
                                 company_json_list.extend(this_com_list)
 
                                 # print("+++++++++++++++++++++++This List++++++++++++++++++++")
                                 # print(json.dumps(this_com_list, indent=4, ensure_ascii=4))
                                 # print("+++++++++++++++++++++++This List++++++++++++++++++++")
+
+                        print("------------------------company list---------------------------")
                         print(json.dumps(company_json_list, indent=4, ensure_ascii=False))
+
+                        browser.quit()
                         return company_json_list
                 except Exception as e:
                     print(e)
                     break
+            browser.quit()
         return []
 
     def get_company_info_from_json_list(self, companay_json_list):
@@ -152,17 +166,25 @@ class Qichacha():
                         tb_list = []
                         for td in tr.findAll('td'):
 
-                            if td.a is not None and td.a.getText().replace(" ", "").replace("\t", "").strip() != "持股详情>":
+                            # if td.a is not None and td.a.getText().replace(" ", "").replace("\t", "").strip() != "持股详情>":
+                            #     tb_list.append(td.a.getText().replace(" ", "").replace("\t", "").strip())
+                            # else:
+                            #     if td.getText() is not None:
+                            #         tb_list.append(
+                            #             td.getText().replace(" ", "").replace("\t", "").replace("\n", "").replace("持股详情>", "").strip())
+
+                            if td.a is not None and td.a.getText().replace(" ", "").replace("\t", "").strip() != "持股详情>" and len(tb_list) == 0:
                                 tb_list.append(td.a.getText().replace(" ", "").replace("\t", "").strip())
                             else:
                                 if td.getText() is not None:
                                     tb_list.append(
                                         td.getText().replace(" ", "").replace("\t", "").replace("\n", "").replace("持股详情>", "").strip())
-                        if len(tb_list) > 3 :
+
+                        if len(tb_list) > 6:
                             partner_list.append(tb_list)
 
-                    print("------------------partner list--------------------")
-                    print(partner_list)
+                    # print("------------------partner list--------------------")
+                    # print(partner_list)
 
                     partner_json_list = []
                     for p in partner_list:
@@ -175,7 +197,7 @@ class Qichacha():
                             json_data['invest_date'] = p[6]
                             partner_json_list.append(json_data)
 
-                    print("------------get member-------------")
+                    # print("------------get member-------------")
                     # 成員信息
                     member_list = []
                     member_soup = soup.find_all(id="Mainmember")
@@ -219,6 +241,8 @@ class Qichacha():
                     result_list.append(company_json)
         except Exception as e:
             print(company)
+            print(partner_list)
+            print(member_list)
             print(e)
 
         return result_list
